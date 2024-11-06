@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+
+div {
+ text-align:center;
+}
+
+
+.rodape {
+    background-color: black; /* Cor de fundo preta */
+    color: white; /* Cor do texto branca */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px 0; /* Espaçamento acima e abaixo do texto */
+    position: fixed; /* Fixa o rodapé no final da página */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.rodape p {
+    margin: 0; /* Remove margens do parágrafo */
+}
+
+.lista-galeria {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .lista-galeria li {
+    width: calc(33.33% - 10px);
+  }
+  
+  .lista-galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  
